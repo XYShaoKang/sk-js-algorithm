@@ -1,12 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/node': ^16.9.1
   ts-node: ^10.2.1
   ts-node-dev: ^1.1.8
   typescript: ^4.3.5
 
 devDependencies:
-  ts-node: registry.nlark.com/ts-node/10.2.1_typescript@4.4.2
+  '@types/node': registry.nlark.com/@types/node/16.9.1
+  ts-node: registry.nlark.com/ts-node/10.2.1_34cffc698df9f333ba1363a67feb35bd
   ts-node-dev: registry.nlark.com/ts-node-dev/1.1.8_typescript@4.4.2
   typescript: registry.nlark.com/typescript/4.4.2
 
@@ -166,6 +168,12 @@ packages:
     resolution: {integrity: sha1-Qjx3h30Fadsg4fyAiFrEEYMUAQ4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@tsconfig/node16/download/@tsconfig/node16-1.0.2.tgz}
     name: '@tsconfig/node16'
     version: 1.0.2
+    dev: true
+
+  registry.nlark.com/@types/node/16.9.1:
+    resolution: {integrity: sha1-BhGzfbQkbJN/7vUp3cwBjPjjVwg=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/node/download/@types/node-16.9.1.tgz?cache=0&sync_timestamp=1631221070634&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.9.1.tgz}
+    name: '@types/node'
+    version: 16.9.1
     dev: true
 
   registry.nlark.com/acorn-walk/8.2.0:
@@ -431,7 +439,7 @@ packages:
       typescript: registry.nlark.com/typescript/4.4.2
     dev: true
 
-  registry.nlark.com/ts-node/10.2.1_typescript@4.4.2:
+  registry.nlark.com/ts-node/10.2.1_34cffc698df9f333ba1363a67feb35bd:
     resolution: {integrity: sha1-TMk76gp6uiF5SX5luwjd/BmLOrU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/ts-node/download/ts-node-10.2.1.tgz?cache=0&sync_timestamp=1629307703324&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fts-node%2Fdownload%2Fts-node-10.2.1.tgz}
     id: registry.nlark.com/ts-node/10.2.1
     name: ts-node
@@ -443,12 +451,18 @@ packages:
       '@swc/wasm': '>=1.2.50'
       '@types/node': '*'
       typescript: '>=2.7'
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      '@swc/wasm':
+        optional: true
     dependencies:
       '@cspotcode/source-map-support': registry.nlark.com/@cspotcode/source-map-support/0.6.1
       '@tsconfig/node10': registry.nlark.com/@tsconfig/node10/1.0.8
       '@tsconfig/node12': registry.nlark.com/@tsconfig/node12/1.0.9
       '@tsconfig/node14': registry.nlark.com/@tsconfig/node14/1.0.1
       '@tsconfig/node16': registry.nlark.com/@tsconfig/node16/1.0.2
+      '@types/node': registry.nlark.com/@types/node/16.9.1
       acorn: registry.nlark.com/acorn/8.5.0
       acorn-walk: registry.nlark.com/acorn-walk/8.2.0
       arg: registry.nlark.com/arg/4.1.3
