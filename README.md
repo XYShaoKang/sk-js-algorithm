@@ -74,9 +74,12 @@ code sk-js-aigorithm
 ## todo
 
 - [ ] 实现自动获取对应的 Case,进行测试
-- [ ] 禁止国际站自动跳转会中文站,从中文站快捷跳转到国际站
+- [ ] 禁止国际站自动跳转回中文站,从中文站快捷跳转到国际站
 - [ ] 添加其他过滤器
   - https://leetcode.com/discuss/feedback/944329/why-leetcode-has-removed-filter-section-for-most-recent-and-other-tabs
   - Most Posts
   - Recent Activity
   - Oldest to Newest
+- [ ] 公式转换为图片
+  - [ ] 将公式转换添加到 git hooks 中,提交时自动转换
+  - [ ] 转换公式时,在图像标签中设置 alt 等于公式的值
