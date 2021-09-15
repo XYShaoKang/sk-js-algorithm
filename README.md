@@ -1,5 +1,3 @@
-# LeetCode
-
 ## About
 
 - endpoint: leetcode-cn
