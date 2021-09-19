@@ -64,7 +64,7 @@ code sk-js-aigorithm
 - [590.n-叉树的后序遍历](./record/590.n-叉树的后序遍历.md) 9.14
 - [589.n-叉树的前序遍历](./record/589.n-叉树的前序遍历.md) 9.14
 - [429.n-叉树的层序遍历](./record/429.n-叉树的层序遍历.md) 9.14
-- [22.括号生成](./record/22.括号生成.md) 9.14 9.17
+- [22.括号生成](./record/22.括号生成.md) 9.14 9.18
 - [226.翻转二叉树](./record/226.翻转二叉树.md) 9.14
 - [98.验证二叉搜索树](./record/98.验证二叉搜索树.md) 9.14
 - [104.二叉树的最大深度](./record/104.二叉树的最大深度.md) 9.15
@@ -81,13 +81,17 @@ code sk-js-aigorithm
 - [17.电话号码的字母组合](./record/17.电话号码的字母组合.md) 9.17
 - [51.n-皇后](./record/51.n-皇后.md) 9.17
 - [102.二叉树的层序遍历](./record/102.二叉树的层序遍历.md) 9.17
-- [433.最小基因变化](./record/433.最小基因变化.md) 9.17
-- [515.在每个树行中找最大值](./record/515.在每个树行中找最大值.md) 9.17
+- [433.最小基因变化](./record/433.最小基因变化.md) 9.18
+- [515.在每个树行中找最大值](./record/515.在每个树行中找最大值.md) 9.18
+- [127.单词接龙](./record/127.单词接龙.md) 9.19
+- [126.单词接龙-ii](./record/126.单词接龙-ii.md) 9.19
+- [200.岛屿数量](./record/200.岛屿数量.md) 9.19
 
 ## todo
 
 - [ ] 实现自动获取对应的 Case,进行测试
 - [ ] 禁止国际站自动跳转回中文站,从中文站快捷跳转到国际站
+  - [x] 在[uBlock](https://github.com/gorhill/uBlock/)中将`leetcode.com/static/cn.js`禁掉即可防止自动跳转
 - [ ] 添加其他过滤器
   - https://leetcode.com/discuss/feedback/944329/why-leetcode-has-removed-filter-section-for-most-recent-and-other-tabs
   - Most Posts
