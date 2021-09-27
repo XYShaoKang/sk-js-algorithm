@@ -6,10 +6,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "ts-node test.ts"
+    "start": "ts-node test.ts",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.9.1",
+    "jest": "^27.2.2",
+    "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.3.5"
