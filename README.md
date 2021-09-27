@@ -5,7 +5,7 @@
 
 本仓库用来存放 LeetCode 的刷题记录,记录存放于 `record` 文件夹中,每个文件对应一题,使用`<序号>.<题目>`命名.
 
-每个文件中分为题目,解法两部分,最后会放一部分验证的 Case. Case 中的使用的格式是可以直接输入到 LeetCode 插件中测试的格式.
+每个文件中分为题目,解法两部分,最后会放一部分验证的 Case.
 
 编辑器使用 VSCode,依托于 [LeetCode](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode) 插件,会在题目中显示 Description 按钮,点击可查看题目详情
 
@@ -42,6 +42,12 @@ code sk-js-aigorithm
   }
 }
 ```
+
+## Case 的使用
+
+可以将 Case 的代码复制到解题的文件中,然后运行`pnpm test --watchAll --testPathPattern=<序号>.`(pnpm 可以替换成 yarn 或者 npx),既能获取到测试结果,每次保存会重新运行测试看到是否通过测试,可以在 each 的参数数组中添加更多自定义的测试.
+
+> 新的 Case 代码是使用 jest 在本地做测试,快捷方便.其中有一部分是之前用于提交到 LeetCode 的测试,还没替换过来,之后会慢慢替换过来.
 
 ## 记录
 
@@ -87,6 +93,10 @@ code sk-js-aigorithm
 - [126.单词接龙-ii](./record/126.单词接龙-ii.md) 9.19
 - [200.岛屿数量](./record/200.岛屿数量.md) 9.19
 - [529.扫雷游戏](./record/529.扫雷游戏.md) 9.20
+- [860.柠檬水找零](./record/860.柠檬水找零.md) 9.27
+- [122.买卖股票的最佳时机-ii](./record/122.买卖股票的最佳时机-ii.md) 9.27
+- [455.分发饼干](./record/455.分发饼干.md) 9.27
+- [874.模拟行走机器人](./record/874.模拟行走机器人.md) 9.27
 
 ## todo
 
@@ -101,3 +111,4 @@ code sk-js-aigorithm
 - [ ] 公式转换为图片
   - [ ] 将公式转换添加到 git hooks 中,提交时自动转换
   - [ ] 转换公式时,在图像标签中设置 alt 等于公式的值
+- 快捷创建 md 文件
