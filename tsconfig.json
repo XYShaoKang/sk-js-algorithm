@@ -9,12 +9,13 @@
     "lib": ["ESNext"],
     "module": "commonjs",
     "moduleResolution": "node",
+    "noEmit": true,
     "resolveJsonModule": true,
-    "outDir": "lib",
-    "rootDir": "src",
+    "rootDir": ".",
     "strict": true,
     "sourceMap": true,
-    "target": "ES2020"
+    "target": "ES2020",
+    "types": ["node", "jest"]
   },
-  "include": ["./problem"]
+  "include": ["problem", "types", "jest", "test"]
 }

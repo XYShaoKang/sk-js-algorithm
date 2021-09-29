@@ -45,17 +45,17 @@ code sk-js-aigorithm
 
 ## Case 的使用
 
-可以将 Case 的代码复制到解题的文件中,然后运行
+可以将 Case 的代码复制到对应问题的文件中,然后运行(替换其中的`<序号>`为问题的序号)
 
 ```sh
-pnpm test -- --watchAll --testPathPattern=/<序号>\\.
+pnpm test:problem -- --testPathPattern=/<序号>\\.
 # or
-yarn test --watchAll --testPathPattern=/<序号>\\.
+yarn test:problem --testPathPattern=/<序号>\\.
 # or
-npx test --watchAll --testPathPattern=/<序号>\\.
+npx test:problem --testPathPattern=/<序号>\\.
 ```
 
-既能获取到测试结果,每次保存会重新运行测试看到是否通过测试,可以在 each 的参数数组中添加更多自定义的测试.
+既能获取到测试结果,每次保存会重新运行测试看到是否通过测试,可以在 each 的参数数组中添加更多自定义的测试用例.
 
 > 新的 Case 代码是使用 jest 在本地做测试,快捷方便.其中有一部分是之前用于提交到 LeetCode 的测试,还没替换过来,之后会慢慢替换过来.
 

@@ -7,13 +7,17 @@
   "private": true,
   "scripts": {
     "start": "ts-node test.ts",
-    "test": "jest"
+    "test": "jest",
+    "test:problem": "jest --testMatch=\"**/*.ts\" --watchAll"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
     "@types/jest": "^27.0.2",
-    "@types/node": "^16.9.1",
+    "@types/node": "^16.10.1",
+    "babel-jest": "^27.2.3",
     "jest": "^27.2.2",
-    "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.3.5"
