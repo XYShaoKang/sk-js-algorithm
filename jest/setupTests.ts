@@ -53,6 +53,13 @@ global.BinaryTree = {
     while (res[res.length - 1] === null) res.pop()
     return res
   },
+  search(root, value) {
+    if (!root || root.val === value) return root
+    return (
+      BinaryTree.search(root.left, value) ||
+      BinaryTree.search(root.right, value)
+    )
+  },
 }
 global.NaryTree = {
   deserialize(data: string | Array<number | null>): Node | null {
