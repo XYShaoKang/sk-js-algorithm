@@ -121,16 +121,18 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [120.三角形最小路径和](./record/120.三角形最小路径和.md) 10.4
 - [53.最大子序和](./record/53.最大子序和.md) 10.4
 - [152.乘积最大子数组](./record/152.乘积最大子数组.md) 10.4
-- [322.零钱兑换](./record/322.零钱兑换.md) 10.5
+- [322.零钱兑换](./record/322.零钱兑换.md) 10.5 10.7
 - [198.打家劫舍](./record/198.打家劫舍.md) 10.5
 - [213.打家劫舍-ii](./record/213.打家劫舍-ii.md) 10.6
 - [121.买卖股票的最佳时机](./record/121.买卖股票的最佳时机.md) 10.6
+- [122.买卖股票的最佳时机-ii](./record/122.买卖股票的最佳时机-ii.md) 10.6
+- [123.买卖股票的最佳时机-iii](./record/123.买卖股票的最佳时机-iii.md) 10.7
 
 ## todo
 
 - [ ] 实现自动获取对应的 Case,进行测试
-- [ ] 禁止国际站自动跳转回中文站,从中文站快捷跳转到国际站
-  - [x] 在[uBlock](https://github.com/gorhill/uBlock/)中将`leetcode.com/static/cn.js`禁掉即可防止自动跳转
+- [ ] 禁止外服自动跳转回国服,从中文站快捷跳转外服到
+  - [x] 屏蔽掉`https://leetcode.com/static/cn.js`这个 url 即可防止自动跳转.我是通过在[uBlock](https://github.com/gorhill/uBlock/)中添加`leetcode.com/static/cn.js`去屏蔽这个链接.
 - [ ] 添加其他过滤器
   - https://leetcode.com/discuss/feedback/944329/why-leetcode-has-removed-filter-section-for-most-recent-and-other-tabs
   - Most Posts
