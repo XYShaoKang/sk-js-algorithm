@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "pnpm jest --watchAll --testMatch=\"**/${fileBasename}\"",
+      "problemMatcher": [],
+      "label": "Run tests",
+      "detail": "run test",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
