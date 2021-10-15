@@ -150,6 +150,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [350.两个数组的交集-ii](./record/350.两个数组的交集-ii.md) 10.15
 - [66.加一](./record/66.加一.md) 10.15
 - [36.有效的数独](./record/36.有效的数独.md) 10.15
+- [48.旋转图像](./record/48.旋转图像.md) 10.15
 
 ## todo
 
