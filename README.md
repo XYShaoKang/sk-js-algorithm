@@ -151,6 +151,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [66.加一](./record/66.加一.md) 10.15
 - [36.有效的数独](./record/36.有效的数独.md) 10.15
 - [48.旋转图像](./record/48.旋转图像.md) 10.15
+- [344.反转字符串](./record/344.反转字符串.md) 10.15
 
 ## todo
 
