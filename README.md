@@ -159,6 +159,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [8.字符串转换整数-atoi](./record/8.字符串转换整数-atoi.md) 10.16
 - [28.实现-str-str](./record/28.实现-str-str.md) 10.16
 - [38.外观数列](./record/38.外观数列.md) 10.16
+- [14.最长公共前缀](./record/14.最长公共前缀.md) 10.16
 
 ## todo
 
