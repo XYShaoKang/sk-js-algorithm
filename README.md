@@ -160,6 +160,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [28.实现-str-str](./record/28.实现-str-str.md) 10.16
 - [38.外观数列](./record/38.外观数列.md) 10.16
 - [14.最长公共前缀](./record/14.最长公共前缀.md) 10.16
+- [237.删除链表中的节点](./record/237.删除链表中的节点.md) 10.16
 
 ## todo
 
