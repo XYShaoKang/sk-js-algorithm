@@ -158,6 +158,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [125.验证回文串](./record/125.验证回文串.md) 10.15
 - [8.字符串转换整数-atoi](./record/8.字符串转换整数-atoi.md) 10.16
 - [28.实现-str-str](./record/28.实现-str-str.md) 10.16
+- [38.外观数列](./record/38.外观数列.md) 10.16
 
 ## todo
 
