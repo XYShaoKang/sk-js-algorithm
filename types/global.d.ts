@@ -9,6 +9,11 @@ interface Node {
   children: Node[]
 }
 
+interface ListNode {
+  val: number
+  next: ListNode | null
+}
+
 // implementation: ../jest/setupTests.ts
 declare var BinaryTree: {
   serialize(root: TreeNode | null): Array<number | null>
