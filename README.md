@@ -171,6 +171,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [384.打乱数组](./record/384.打乱数组.md) 10.17
 - [412.fizz-buzz](./record/412.fizz-buzz.md) 10.17
 - [204.计数质数](./record/204.计数质数.md) 10.17
+- [326.3-的幂](./record/326.3-的幂.md) 10.17
 
 ## todo
 
