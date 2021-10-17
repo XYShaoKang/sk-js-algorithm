@@ -169,6 +169,7 @@ npx test:problem --testPathPattern=/<序号>\\.
 - [88.合并两个有序数组](./record/88.合并两个有序数组.md) 10.17
 - [278.第一个错误的版本](./record/278.第一个错误的版本.md) 10.17
 - [384.打乱数组](./record/384.打乱数组.md) 10.17
+- [412.fizz-buzz](./record/412.fizz-buzz.md) 10.17
 
 ## todo
 
