@@ -11,6 +11,12 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "type": "shell",
+      "command": "${workspaceFolder}/node_modules/.bin/tsc --outDir dist ${file}",
+      "problemMatcher": ["$tsc"],
+      "label": "tsc: build current file"
     }
   ]
 }

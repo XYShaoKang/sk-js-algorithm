@@ -35,3 +35,5 @@ jspm_packages/
 
 # 排除 LeetCode 扩展生成的 ts 文件
 problem
+
+dist
