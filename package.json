@@ -6,7 +6,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "ts-node test.ts",
     "test": "jest",
     "test:problem": "jest --testMatch=\"**/*.ts\" --watchAll"
   },

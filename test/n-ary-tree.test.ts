@@ -48,6 +48,5 @@ test.each([
     },
   },
 ])('input = $input', ({ input, output }) => {
-  // console.log(JSON.stringify(NaryTree.deserialize(input)))
   expect(NaryTree.deserialize(input)).toEqual(output)
 })
