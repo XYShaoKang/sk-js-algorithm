@@ -214,6 +214,8 @@ npx test:problem --testPathPattern=/<序号>\\.
   - [ ] 将公式转换添加到 git hooks 中,提交时自动转换
   - [ ] 转换公式时,在图像标签中设置 alt 等于公式的值
 - [ ] 快捷创建 md 文件
+- [ ] 调试数据可视化
+  - [ ] [Debug Visualizer](https://github.com/hediet/vscode-debug-visualizer/blob/master/extension/README.md)
 - [ ] 专项训练
   - [ ] 滑动窗口
   - [ ] 排列组合
@@ -221,4 +223,8 @@ npx test:problem --testPathPattern=/<序号>\\.
   - [x] 动态规划(基础)
   - [ ] 排序
   - [ ] 字符串相关
+    - [ ] 预处理
+      - [ ] KMP
+      - [ ] 字典树
+      - [ ] 存储下一个位置的索引
   - [ ] 贪心
