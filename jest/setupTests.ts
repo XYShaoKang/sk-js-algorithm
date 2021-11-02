@@ -88,3 +88,34 @@ global.NaryTree = {
     return root
   },
 }
+global.LinkedList = {
+  deserialize(data: Array<number>): ListNode | null {
+    const arr = [...data]
+    if (!arr.length) return null
+
+    const root: ListNode = { val: arr[0], next: null }
+    let cur = root
+    for (let i = 1; i < arr.length; i++) {
+      const next = { val: arr[i], next: null }
+      cur.next = next
+      cur = next
+    }
+    return root
+  },
+  serialize(root: ListNode | null): Array<number> {
+    if (!root) return []
+    const arr = []
+    while (root) {
+      arr.push(root.val)
+      root = root.next
+    }
+    return arr
+  },
+  search(root: ListNode | null, val: number): ListNode | null {
+    while (root) {
+      if (root.val === val) return root
+      root = root.next
+    }
+    return null
+  },
+}

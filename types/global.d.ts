@@ -23,3 +23,8 @@ declare var BinaryTree: {
 declare var NaryTree: {
   deserialize(data: string | Array<number | null>): Node | null
 }
+declare var LinkedList: {
+  deserialize(data: Array<number>): ListNode | null
+  serialize(root: ListNode | null): Array<number>
+  search(root: ListNode | null, val: number): ListNode | null
+}
