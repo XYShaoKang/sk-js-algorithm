@@ -234,6 +234,7 @@ npx test:problem --testPathPattern=/<序号>\\.
   - [ ] 转换公式时,在图像标签中设置 alt 等于公式的值
 - [ ] 快捷创建 md 文件
   - [ ] 快速创建测试用例
+    - [x] 通过 VSCode 的用户代码片段,支持快速创建测试用例
 - [ ] 调试数据可视化
   - [ ] [Debug Visualizer](https://github.com/hediet/vscode-debug-visualizer/blob/master/extension/README.md)
 - [ ] 专项训练
