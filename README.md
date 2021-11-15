@@ -199,6 +199,7 @@ code sk-js-aigorithm
 - [ ] 快捷创建 md 文件
   - [ ] 快速创建测试用例
     - [x] 通过 VSCode 的用户代码片段,支持快速创建测试用例
+    - [ ] 尝试通过脚本自动填充测试用例
 - [ ] 调试数据可视化
   - [ ] [Debug Visualizer](https://github.com/hediet/vscode-debug-visualizer/blob/master/extension/README.md)
 - [ ] 专项训练
