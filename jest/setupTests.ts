@@ -91,17 +91,19 @@ global.NaryTree = {
   },
 }
 global.LinkedList = {
-  deserialize(data: Array<number>): ListNode | null {
+  deserialize(data: Array<number>, pos?: number): ListNode | null {
     const arr = [...data]
     if (!arr.length) return null
 
     const root: ListNode = { val: arr[0], next: null }
-    let cur = root
+    const nodes = [root]
     for (let i = 1; i < arr.length; i++) {
       const next = { val: arr[i], next: null }
-      cur.next = next
-      cur = next
+      nodes[nodes.length - 1].next = next
+      nodes.push(next)
     }
+    if (pos !== undefined) nodes[nodes.length - 1].next = nodes[pos]
+
     return root
   },
   serialize(root: ListNode | null): Array<number> {
