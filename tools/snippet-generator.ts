@@ -10,7 +10,7 @@ function snippetGenerator() {
           regexStr +
           '/${2:-param}: $3' +
           getReference((i) => `\${${i}:+, }$${i}\${${i}:+: }$${i + 1}`) +
-          ' }, output: $22/} },$0',
+          ' }, output: $22/} },\n\t$0',
         '])(',
         "\t'input: ${CLIPBOARD/" +
           regexStr +
@@ -37,7 +37,7 @@ function snippetGenerator() {
           regexStr +
           '/${2:-param}: $3' +
           getReference((i) => `\${${i}:+, }$${i}\${${i}:+: }$${i + 1}`) +
-          ' }, output: $22/} },',
+          ' }, output: $22/} },\n',
       ],
       description: '添加测试用例',
     },
@@ -56,7 +56,7 @@ function getReference(fn: (i: number) => string) {
 function getRegex() {
   const template = `输入[：:] ?\\n?((?:(.+?) = )?([\\d\\D]+?))${`(?:(?:(?:, )|\\n)((.+?) = ([\\d\\D]+?)))?`.repeat(
     6,
-  )}\\n输出[：:] ?(.*)$`
+  )}\\n输出[：:] ?([\\d\\D]*)$`
   return template
 }
 
