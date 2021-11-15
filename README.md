@@ -20,44 +20,7 @@ git clone https://github.com/XYShaoKang/sk-js-aigorithm.git
 code sk-js-aigorithm
 ```
 
-安装 [LeetCode](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode) 插件,并根据插件文档,自行进行设置
-
-我使用的配置,替换其中`<本仓库的绝对路径>`为你实际中的路径
-
-```json
-{
-  "leetcode.endpoint": "leetcode-cn",
-  "leetcode.workspaceFolder": "<本仓库的绝对路径>",
-  "leetcode.defaultLanguage": "typescript",
-  "leetcode.showDescription": "In Webview",
-  "leetcode.editor.shortcuts": ["submit", "test", "description"],
-  "leetcode.hint.configWebviewMarkdown": false,
-  "leetcode.hint.commentDescription": false,
-  "leetcode.hint.commandShortcut": false,
-  "leetcode.filePath": {
-    "default": {
-      "folder": "problem",
-      "filename": "${id}.${kebab-case-name}.${ext}"
-    }
-  }
-}
-```
-
-## Case 的使用
-
-可以将 Case 的代码复制到对应问题的文件中,然后运行(替换其中的`<序号>`为问题的序号)
-
-```sh
-pnpm test:problem -- --testPathPattern=/<序号>\\.
-# or
-yarn test:problem --testPathPattern=/<序号>\\.
-# or
-npx test:problem --testPathPattern=/<序号>\\.
-```
-
-既能获取到测试结果,每次保存会重新运行测试看到是否通过测试,可以在 each 的参数数组中添加更多自定义的测试用例.
-
-> 新的 Case 代码是使用 jest 在本地做测试,快捷方便.其中有一部分是之前用于提交到 LeetCode 的测试,还没替换过来,之后会慢慢替换过来.
+更多详细信息请查看[使用指南](./docs/使用指南.md)
 
 ## 刷题记录
 
