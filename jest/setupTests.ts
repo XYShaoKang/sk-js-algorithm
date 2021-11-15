@@ -1,3 +1,5 @@
+import 'jest-extended'
+
 const createNode = (val: number | null | undefined) =>
   val === null || val === undefined ? null : { val, left: null, right: null }
 
