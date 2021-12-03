@@ -15,3 +15,4 @@ https://leetcode-cn.com/problem-list/2cktkvj/
 | 11.29 | [312.戳气球](./record/312.戳气球.md)                                                                       | 困难 |
 | 12.1  | [198.打家劫舍](./record/198.打家劫舍.md)                                                                   | 中等 |
 | 12.2  | [213.打家劫舍-ii](./record/213.打家劫舍-ii.md)                                                             | 中等 |
+| 12.3  | [5.最长回文子串](./record/5.最长回文子串.md)                                                               | 中等 |
