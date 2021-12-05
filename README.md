@@ -214,6 +214,7 @@ code sk-js-aigorithm
 | [506.相对名次](./record/506.相对名次.md)                                                                   | 简单 | 12.2  |       |       |       |                  |
 | [1005.k-次取反后最大化的数组和](./record/1005.k-次取反后最大化的数组和.md)                                 | 简单 | 12.3  |       |       |       |                  |
 | [383.赎金信](./record/383.赎金信.md)                                                                       | 简单 | 12.4  |       |       |       |                  |
+| [372.超级次方](./record/372.超级次方.md)                                                                   | 中等 | 12.5  |       |       |       |                  |
 
 ## todo
 
@@ -231,6 +232,9 @@ code sk-js-aigorithm
 - [ ] 快捷创建 md 文件
   - [ ] 快速创建测试用例
     - [x] 通过 VSCode 的用户代码片段,支持快速创建测试用例
+    - [ ] 粘贴错误
+      - [ ] [2087. 网格图中机器人回家的最小代价](https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
+      - [ ] [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
     - [ ] 尝试通过脚本自动填充测试用例
 - [ ] 调试数据可视化
   - [ ] [Debug Visualizer](https://github.com/hediet/vscode-debug-visualizer/blob/master/extension/README.md)
