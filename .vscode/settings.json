@@ -1,3 +1,4 @@
 {
-  "vscode-math-to-image.svgSavePath": "Current file directory"
+  "vscode-math-to-image.svgSavePath": "Current file directory",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

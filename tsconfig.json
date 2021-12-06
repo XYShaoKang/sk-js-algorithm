@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmit": true,

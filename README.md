@@ -237,7 +237,10 @@ code sk-js-aigorithm
     - [ ] 粘贴错误
       - [ ] [2087. 网格图中机器人回家的最小代价](https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
       - [ ] [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)
-    - [ ] 尝试通过脚本自动填充测试用例
+    - [x] 尝试通过脚本自动填充测试用例
+      - [ ] 缓存题目列表
+      - [ ] 日志
+      - [ ] 错误处理
 - [ ] 调试数据可视化
   - [ ] [Debug Visualizer](https://github.com/hediet/vscode-debug-visualizer/blob/master/extension/README.md)
 - [ ] 专项训练

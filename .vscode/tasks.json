@@ -17,6 +17,12 @@
       "command": "${workspaceFolder}/node_modules/.bin/tsc --outDir dist ${file}",
       "problemMatcher": ["$tsc"],
       "label": "tsc: build current file"
+    },
+    {
+      "type": "shell",
+      "command": "${workspaceFolder}/node_modules/.bin/tsnd --transpile-only tools/create-test.ts ${file}",
+      "problemMatcher": ["$tsc"],
+      "label": "LeetCode: Add test"
     }
   ]
 }
