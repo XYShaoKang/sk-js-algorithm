@@ -23,6 +23,7 @@
     "jest-extended": "^1.1.0",
     "jsdom": "^19.0.0",
     "node-fetch": "2",
+    "prettier": "^2.5.1",
     "ts-node": "^10.2.1",
     "ts-node-dev": "^1.1.8",
     "tslib": "^2.3.1",

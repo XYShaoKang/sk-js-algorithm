@@ -13,6 +13,7 @@ specifiers:
   jest-extended: ^1.1.0
   jsdom: ^19.0.0
   node-fetch: '2'
+  prettier: ^2.5.1
   ts-node: ^10.2.1
   ts-node-dev: ^1.1.8
   tslib: ^2.3.1
@@ -31,6 +32,7 @@ devDependencies:
   jest-extended: 1.1.0
   jsdom: 19.0.0
   node-fetch: 2.6.6
+  prettier: 2.5.1
   ts-node: 10.2.1_e0bf20b7c5ed5b194f21284475beb32f
   ts-node-dev: 1.1.8_typescript@4.4.3
   tslib: 2.3.1
@@ -3586,6 +3588,12 @@ packages:
   /prelude-ls/1.1.2:
     resolution: {integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /pretty-format/26.6.2:
