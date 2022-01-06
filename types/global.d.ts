@@ -76,3 +76,7 @@ declare var LinkedList: {
    */
   search(root: ListNode | null, val: number): ListNode | null
 }
+
+declare var Queue: typeof import('@datastructures-js/queue').Queue
+declare var MinPriorityQueue: typeof import('@datastructures-js/priority-queue').MinPriorityQueue
+declare var MaxPriorityQueue: typeof import('@datastructures-js/priority-queue').MaxPriorityQueue

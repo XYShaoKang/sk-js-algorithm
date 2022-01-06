@@ -1,4 +1,13 @@
 import 'jest-extended'
+import { MinPriorityQueue, MaxPriorityQueue } from '@datastructures-js/priority-queue'
+import { Queue } from '@datastructures-js/queue'
+import _ from 'lodash'
+
+global._ = _
+global.Queue = Queue
+global.MinPriorityQueue = MinPriorityQueue
+global.MaxPriorityQueue = MaxPriorityQueue
+// 目前 Leetcode 内置的 @datastructures-js/priority-queue 版本为 5.2.0,所以不导入 PriorityQueue, PriorityQueue 是在 5.3.0 中新增的.
 
 const createNode = (val: number | null | undefined) =>
   val === null || val === undefined ? null : { val, left: null, right: null }
