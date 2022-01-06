@@ -14,23 +14,18 @@ const createNode = (val: number | null | undefined) =>
 
 global.BinaryTree = {
   deserialize(data: Array<number | null> | string): TreeNode | null {
-    let arr: Array<number | null> = Array.isArray(data)
-      ? data
-      : JSON.parse(data)
+    let arr: Array<number | null> = Array.isArray(data) ? data : JSON.parse(data)
 
     const root: TreeNode | null = createNode(arr[0])
 
-    const recursive = (
-      pre: Array<TreeNode | null>,
-      index = 1,
-    ): Array<TreeNode | null> => {
+    const recursive = (pre: Array<TreeNode | null>, index = 1): Array<TreeNode | null> => {
       if (pre.length === 0) return pre
 
       const tmp: Array<TreeNode | null> = []
 
       for (const parent of pre) {
         if (parent && index < arr.length) {
-          ;(['left', 'right'] as const).forEach((key) => {
+          ;(['left', 'right'] as const).forEach(key => {
             let node: TreeNode | null = createNode(arr[index])
             tmp.push(node)
             parent[key] = node
@@ -52,9 +47,7 @@ global.BinaryTree = {
       if (!nodes.length) return
       const tmp: Array<TreeNode | null> = []
       for (const node of nodes) {
-        ;(['left', 'right'] as const).forEach(
-          (key) => node && tmp.push(node[key]),
-        )
+        ;(['left', 'right'] as const).forEach(key => node && tmp.push(node[key]))
         res.push(node?.val ?? null)
       }
 
@@ -66,10 +59,7 @@ global.BinaryTree = {
   },
   search(root, value) {
     if (!root || root.val === value) return root
-    return (
-      BinaryTree.search(root.left, value) ||
-      BinaryTree.search(root.right, value)
-    )
+    return BinaryTree.search(root.left, value) || BinaryTree.search(root.right, value)
   },
 }
 global.NaryTree = {
