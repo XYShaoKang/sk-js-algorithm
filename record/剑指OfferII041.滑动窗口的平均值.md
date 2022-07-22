@@ -6,12 +6,13 @@
  *
  * [剑指 Offer II 041] 滑动窗口的平均值
  */
-
+// @lc code=start
 class MovingAverage {
   constructor(private size: number) {}
 
   next(val: number): number {}
 }
+// @lc code=end
 ```
 
 ## 解法 1: 滑动窗口
